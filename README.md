@@ -12,3 +12,4 @@
 # [4]. C++
 ## Q1 (Question)(Company)
 ### Q1 (Answer)
+# [4]. 其他坑
