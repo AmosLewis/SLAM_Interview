@@ -21,12 +21,12 @@ int main()
 - 1.1 Datatype
 
 	- 1.1.1 Classification of data type
-		
+	
 		- simple: basic type(int,float/double, char, void), user-define-type/enum
-		
+	
 		- struct:array[], struct, union, class
 		
-		- pointer:8
+		- pointer: *
 
 	- 1.1.2 Essence of data type： [**alias of fixed space of memory**]
 
@@ -36,7 +36,7 @@ int main()
        		int a = 10
        		"int"  tell Compiler to alloc 4 byte memory. When compile see "a", it will alloc. 
        		```
-   
+
 	- 1.1.3 Size of data type     
 
 		- sizeof is operator，the same as (+ — * /), it is not a function.  Size will be return after compile.
@@ -58,6 +58,15 @@ int main()
         // rename for unsigned int
         typedef unsigned int u32;
         ```
+
+	- 1.1.5 Void
+	
+		- void * can point to any type of data
+		
+		```
+		void *memcpy( void* dest, const void* src, size_t len );
+		void *memset( void* buffer, int c, size_t num );
+		```
 
 ###  [***Common error***]
 [e1] ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’
