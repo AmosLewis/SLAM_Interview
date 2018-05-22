@@ -27,6 +27,6 @@
 
        - [2] [***No Downcast***]( Cannot be used base->derived class)
 
-		- [3] [***Polymorphic Argument Type***] (多态 polymorphic means base 必须有 vitual function，这才是判断要不要用dynamic_cast的核心原因就看 base中有没有 vitual function, 参见[A3_(visual_function的作用)](cpp/A3_(visual_function的作用)) )
+		- [3] [***Polymorphic Argument Type***] (多态 polymorphic means base 必须有 vitual function，这才是判断要不要用dynamic_cast的核心原因就看 base中有没有 vitual function, 参见[A3_(visual_function的作用)](/cpp/A3_(visual_function的作用)) )
 
 		- [4] [***Only Reference & Pointer***] (只能被用于 class 的reference and pointer)
