@@ -27,7 +27,7 @@ int main()
 
        ```
        int a = 10
-       int  告诉 compiler要分配4字节内存，看到 a 才开始真正分配
+       int  告诉 compiler要分配4字节内存，看到 a 才开始真正分配
        ```
        
        
