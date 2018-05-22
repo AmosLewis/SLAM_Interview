@@ -15,7 +15,7 @@ Feel free to contact me chil1@alumni.cmu.edu
 
 # [1]. SLAM
 ##### Q1_(Calibration步骤)
-[A1_(Calibration步骤).md](slam/A1_(Calibration步骤).md)
+[A1_(Calibration步骤).md](/slam/A1_(Calibration步骤).md)
 
 
 # [2]. Computer Vision
@@ -34,13 +34,13 @@ Feel free to contact me chil1@alumni.cmu.edu
 ###### Q4_(Answer)
 # [4]. C++
 ##### Q1_(static_cast和dynamic_cast区别)
-###### [A1_static_cast和dynamic_cast 区别.md](cpp/A1_static_cast和dynamic_cast区别.md)
+###### [A1_static_cast和dynamic_cast 区别.md](/cpp/A1_static_cast和dynamic_cast区别.md)
 
 
 ##### Q2_(deep_copy和shallow_copy区别)
 ###### Q2_(Answer)
 ##### Q3_(visual_function的作用)
-###### [A3_(visual_function的作用)](cpp/A3_(visual_function的作用))
+###### [A3_(visual_function的作用)](/cpp/A3_(visual_function的作用))
 # [5]. 其他乱七八糟的问题和坑
 # [4]. 个人project的特定问题
 ##### Q1 (Question)(WHO)
