@@ -12,7 +12,6 @@ This is a private repository for SLAM job interview. The page is maintained by [
 ###### Q1 (Answer)
 # [4]. C++
 ##### Q1 (static_cast 和 dynamic_cast 区别)(杨面试的一家公司问的)
-###### Q1  
 static_cast : [no runtime checks] 
 
 dynamic_cast :[run time checks]
