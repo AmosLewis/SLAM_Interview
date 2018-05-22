@@ -86,9 +86,11 @@ This is a private repository for SLAM job interview. The page is maintained by [
 
        - [2] [***No Downcast***]( Cannot be used base->derived class)
 
-       - [3] [***Polymorphic Argument Type***]( 多态 polymorphic means base 必须有 vitual function，这才是判断要不要用dynamic_cast的核心原因就看 base中有没有 vitual function, 参见Q3 )
-
-       - [4] [***Only Reference & Pointer***] ( 只能被用于 class 的reference and pointer )
+        - [3] [***Polymorphic Argument Type***]
+       ( 多态 polymorphic means base 必须有 vitual function，这才是判断要不要用dynamic_cast的核心原因就看 base中有没有 vitual function, 参见Q3 )
+       
+        - [4] [***Only Reference & Pointer***] 
+       ( 只能被用于 class 的reference and pointer )
 
 ##### Q2 (deep copy 和 shallow copy 区别)(夏面试的一家公司问的)
 ###### Q2 (Answer)
