@@ -19,7 +19,7 @@ static_cast : [1][no runtime checks] (Used if you know that you refer to an obje
 
 dynamic_cast :[1][run time checks] (Used when you don't know what the dynamic type of the object. Returns a null pointer if cast fail.)
 
-[Stackflow Link](https://stackoverflow.com/questions/28002/regular-cast-vs-static-cast-vs-dynamic-cast)
+[Stackflow Link：regular-cast-vs-static-cast-vs-dynamic-cast](https://stackoverflow.com/questions/28002/regular-cast-vs-static-cast-vs-dynamic-cast)
 ##### Q2 (deep copy 和 shallow copy 区别)(夏面试的一家公司问的)
 ###### Q2 (Answer)
 ##### Q3 (visual function 的作用)(夏面试的一家公司问的)
