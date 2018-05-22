@@ -1,5 +1,7 @@
 # SLAM_Interview
-This is a private repository for SLAM job interview. The page is maintained by [Youjie Xia](https://github.com/YoujieXia), [Chi Liu](https://github.com/AmosLewis), [Jimuyang Zhang](https://github.com/Jimuyangz) and [Zhengyu Zhou](https://github.com/z78406). And this repo would keep constantly updated. 
+This is a private repository for SLAM job interview. The page is maintained by [Youjie Xia](https://github.com/YoujieXia), [Chi Liu](https://github.com/AmosLewis), [jiangshan Tian](https://github.com/tianjiangshan),[Zhengyu Zhou](https://github.com/z78406) and [Jimuyang Zhang](https://github.com/Jimuyangz). And this repo would keep constantly updated. 
+
+Feel free to contact me chil1@alumni.cmu.edu
 
 [chi] 前四类问题为主要专业知识 SLAM/CV/DL/C++，Question 多用中文描述，方便快速查找。后面的还可以补充点其他乱七八糟的问题。
 
@@ -54,11 +56,19 @@ This is a private repository for SLAM job interview. The page is maintained by [
          - 满意了就点Calibrate button, 同时算出intrinsic parameters, the extrinsic parameters, and the distortion coefficients. 默认用  nonlinear least-squares minimization (Levenberg–Marquardt algorithm). 
 
 # [2]. Computer Vision
-##### Q1 ()(Company)
+##### Q1 (SURF,SIFT，ORB 比较优劣)
 ###### Q1 (Answer)
 # [3]. Deep Learning
-##### Q1 (Question)(Company)
+##### Q1 (YOLO123 不同)
 ###### Q1 (Answer)
+##### Q2 (RCNN FastRCNN FasterRCNN 不同)
+###### Q2 (Answer)
+##### Q3 (BCE loss  公式)
+###### Q3 (Answer)
+##### Q4 (Activation function 的功能)
+###### Q4 (Answer)
+##### Q5 (Sigmoid and LeakRLU 区别)
+###### Q4 (Answer)
 # [4]. C++
 ##### Q1 (static_cast 和 dynamic_cast 区别)
 [Stackflow Link：regular-cast-vs-static-cast-vs-dynamic-cast](https://stackoverflow.com/questions/28002/regular-cast-vs-static-cast-vs-dynamic-cast) C++基础或者进阶的书里也有说明
