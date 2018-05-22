@@ -23,33 +23,33 @@ This is a private repository for SLAM job interview. The page is maintained by [
 # [4]. C++
 ##### Q1 (static_cast 和 dynamic_cast 区别)(杨面试的一家公司问的)
 [Stackflow Link：regular-cast-vs-static-cast-vs-dynamic-cast](https://stackoverflow.com/questions/28002/regular-cast-vs-static-cast-vs-dynamic-cast) C++基础或者进阶的书里也有说明
-- A Same point: 
+- Same point: 
 
-  - B [1] [***Upcast***]("Up-cast" (derive->base class) is always valid )
+ - [1] [***Upcast***]("Up-cast" (derive->base class) is always valid )
 
-  - B [2] [***None Relevent Class***]( Report error during **compile** if cast two unrelevent class,如 char->int  在C里面就是可以的，C++里面就必须用, reinterpret_cast, 我们平时用的基本都是C风格的强制转换，就在变量前面加一个（要强转的类型）什么的。 )
+ - [2] [***None Relevent Class***]( Report error during **compile** if cast two unrelevent class,如 char->int  在C里面就是可以的，C++里面就必须用, reinterpret_cast, 我们平时用的基本都是C风格的强制转换，就在变量前面加一个（要强转的类型）什么的。 )
 
-- A Different point: 
+- Different point: 
 
- - B **static_cast** : 
+ - **static_cast** : 
 
- - C [1] [***No runtime checks***] ( Used if you know that you refer to an object of a specific type, and thus a check would be unnecessary.)
+    - [1] [***No runtime checks***] ( Used if you know that you refer to an object of a specific type, and thus a check would be unnecessary.)
   
- - C [2] [***Downcast***]( Even cannot downcast, the static_cast won't give you error reprort during **compile**)
+    - [2] [***Downcast***]( Even cannot downcast, the static_cast won't give you error reprort during **compile**)
     
- - C [3] [***No Polymorphic Argument Type***]( Class base don't need to have vitual function )
+    - [3] [***No Polymorphic Argument Type***]( Class base don't need to have vitual function )
     
- - C [4] [***Numerical Cast***]( Not only reference & pointer, but also numerical cast. )
+    - [4] [***Numerical Cast***]( Not only reference & pointer, but also numerical cast. )
 
- - B **dynamic_cast** :
+ - **dynamic_cast** :
 
- - C [1] [***Run Time Checks***] ( Used when you don't know what the dynamic type of the object. Returns a null pointer if cast fail.)
+    - [1] [***Run Time Checks***] ( Used when you don't know what the dynamic type of the object. Returns a null pointer if cast fail.)
 
- - C [2] [***No Downcast***]( Cannot be used base->derived class)
+   - [2] [***No Downcast***]( Cannot be used base->derived class)
 
- - C [3] [***Polymorphic Argument Type***]( 多态 polymorphic means base must have vitual function )
+   - [3] [***Polymorphic Argument Type***]( 多态 polymorphic means base must have vitual function )
 
- - C [4] [***Only Reference & Pointer***] ( 只能被用于 class 的reference and pointer )
+   - [4] [***Only Reference & Pointer***] ( 只能被用于 class 的reference and pointer )
 
 ##### Q2 (deep copy 和 shallow copy 区别)(夏面试的一家公司问的)
 ###### Q2 (Answer)
