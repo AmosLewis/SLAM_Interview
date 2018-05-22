@@ -3,7 +3,7 @@ This is a private repository for SLAM job interview. The page is maintained by [
 
 [chi] 前四类问题为主要专业知识 SLAM/CV/DL/C++，Question 多用中文描述，方便快速查找。后面的还可以补充点其他乱七八糟的问题。
 
-[chi] answer多用英文，方便背诵，中英结合，关键词都用英文，必要的话直接插图。主要给[keypoint]和 (口语化解释)。若有详细解释的link也可给出，答案可以只给出自己现在的理解，发现错了可以再改。相关理解性可以用中文便于快速理解。
+[chi] answer关键词都用英文，方便背诵，解释中英结合方便快速理解，必要的话直接插图。主要给[keypoint]和 (口语化解释)。若有详细解释的link也可给出，答案可以只给出自己现在的理解，发现错了再改。相关理解性的东西用中文便于快速理解。
 
 [chi] c++ 的话有code可以直接贴code 到另外一个C++文件夹下，然后给个link。
 
@@ -14,8 +14,14 @@ This is a private repository for SLAM job interview. The page is maintained by [
 # [1]. SLAM
 ##### Q1 (Calibration 步骤)(宁面试的一家公司问的)
 [Matlab TOOLBOX Calibration step](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html?w.mathworks.com)
+
+- [MATLAB Toolstrip] On the Apps tab, in the Image Processing and Computer Vision section, click the Camera Calibrator icon.]
+
+    - [Prepare checkboard]
+     
+
 # [2]. Computer Vision
-##### Q1 (Question)(Company)
+##### Q1 ()(Company)
 ###### Q1 (Answer)
 # [3]. Deep Learning
 ##### Q1 (Question)(Company)
@@ -47,14 +53,14 @@ This is a private repository for SLAM job interview. The page is maintained by [
 
        - [2] [***No Downcast***]( Cannot be used base->derived class)
 
-       - [3] [***Polymorphic Argument Type***]( 多态 polymorphic means base must have vitual function )
+       - [3] [***Polymorphic Argument Type***]( 多态 polymorphic means base 必须有 vitual function，这才是判断要不要用dynamic_cast的核心原因就看 base中有没有 vitual function, 参见Q3 )
 
        - [4] [***Only Reference & Pointer***] ( 只能被用于 class 的reference and pointer )
 
 ##### Q2 (deep copy 和 shallow copy 区别)(夏面试的一家公司问的)
 ###### Q2 (Answer)
 ##### Q3 (visual function 的作用)(夏面试的一家公司问的)
-###### Q3 (Answer)
+base 有些功能对不同的derived实现是不同的，所以base自己先用vitual function定个接口的规范，derived去实现不同的function，然后base类型的object 还可以调用derive的 vitual function。derived -> base 的时候就用dynamic_cast.
 # [5]. 其他乱七八糟的问题和坑
 # [4]. 个人project的特定问题
 ##### Q1 (Question)(WHO)
