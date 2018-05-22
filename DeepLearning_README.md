@@ -1,1 +1,0 @@
-# DeepLearning Knowledge
