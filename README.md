@@ -12,7 +12,7 @@ This is a private repository for SLAM job interview. The page is maintained by [
 [chi] 这一页主要放我们被面过的问题，另外4个分开的readme 则具体整理复习时候具体的问题，还有以上面QA的格式给出，一个人给出答案，其他人看着有问题就修改，也可以在那个问题答案后面加上名字和comment。
 
 # [1]. SLAM
-##### Q1 (Calibration 步骤)(宁面试的一家公司问的)
+##### Q1 (Calibration 步骤)
 [Matlab TOOLBOX Calibration step](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html?w.mathworks.com)
 
 - [MATLAB Toolstrip] On the Apps tab, in the Image Processing and Computer Vision section, click the Camera Calibrator icon.]
@@ -60,7 +60,7 @@ This is a private repository for SLAM job interview. The page is maintained by [
 ##### Q1 (Question)(Company)
 ###### Q1 (Answer)
 # [4]. C++
-##### Q1 (static_cast 和 dynamic_cast 区别)(杨面试的一家公司问的)
+##### Q1 (static_cast 和 dynamic_cast 区别)
 [Stackflow Link：regular-cast-vs-static-cast-vs-dynamic-cast](https://stackoverflow.com/questions/28002/regular-cast-vs-static-cast-vs-dynamic-cast) C++基础或者进阶的书里也有说明
 - Same point: 
 
@@ -90,9 +90,9 @@ This is a private repository for SLAM job interview. The page is maintained by [
 
 		- [4] [***Only Reference & Pointer***] (只能被用于 class 的reference and pointer)
 
-##### Q2 (deep copy 和 shallow copy 区别)(夏面试的一家公司问的)
+##### Q2 (deep copy 和 shallow copy 区别)
 ###### Q2 (Answer)
-##### Q3 (visual function 的作用)(夏面试的一家公司问的)
+##### Q3 (visual function 的作用)
 base 有些功能对不同的derived实现是不同的，所以base自己先用vitual function定个接口的规范，derived去实现不同的function，然后base类型的object 还可以调用derive的 vitual function。derived -> base 的时候就用dynamic_cast.
 # [5]. 其他乱七八糟的问题和坑
 # [4]. 个人project的特定问题
