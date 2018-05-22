@@ -18,7 +18,7 @@ This is a private repository for SLAM job interview. The page is maintained by [
 - [MATLAB Toolstrip] On the Apps tab, in the Image Processing and Computer Vision section, click the Camera Calibrator icon.]
 
     - [Prepare checkboard]
-      - [Print the Checkerboard Pattern] 不能正方形
+      - [Print the Checkerboard Pattern] 打印标定板，不能用正方形
         
       - [Attach the checkerboard printout to a Flat Surface]
         
