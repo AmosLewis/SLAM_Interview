@@ -14,33 +14,33 @@ Feel free to contact me chil1@alumni.cmu.edu
 [chi] 这一页主要放我们被面过的问题，另外4个分开的readme 则具体整理复习时候具体的问题，还有以上面QA的格式给出，一个人给出答案，其他人看着有问题就修改，也可以在那个问题答案后面加上名字和comment。
 
 # [1]. SLAM
-##### Q1 (Calibration 步骤)
+##### Q1_(Calibration步骤)
 [A1_(Calibration步骤).md](slam/A1_(Calibration步骤).md)
 
 
 # [2]. Computer Vision
-##### Q1 (SURF,SIFT，ORB 比较优劣)
-###### Q1 (Answer)
+##### Q1_(SURF_SIFT_ORB比较优劣)
+###### Q1_(Answer)
 # [3]. Deep Learning
-##### Q1 (YOLO123 不同)
-###### Q1 (Answer)
-##### Q2 (RCNN FastRCNN FasterRCNN 不同)
-###### Q2 (Answer)
+##### Q1_(YOLO1_2_3不同)
+###### Q1_(Answer)
+##### Q2 (RCNN_FastRCNN_FasterRCNN不同)
+###### Q2_(Answer)
 ##### Q3 (BCE loss  公式)
-###### Q3 (Answer)
-##### Q4 (Activation function 的功能)
-###### Q4 (Answer)
-##### Q5 (Sigmoid and LeakRLU 区别)
-###### Q4 (Answer)
+###### Q3_(Answer)
+##### Q4_(Activation_function的功能)
+###### Q4_(Answer)
+##### Q5_(Sigmoid_&_LeakRLU区别)
+###### Q4_(Answer)
 # [4]. C++
-##### Q1 (static_cast 和 dynamic_cast 区别)
+##### Q1_(static_cast和dynamic_cast区别)
 ###### [A1_static_cast和dynamic_cast 区别.md](cpp/A1_static_cast和dynamic_cast区别.md)
 
 
-##### Q2 (deep copy 和 shallow copy 区别)
-###### Q2 (Answer)
-##### Q3 (visual function 的作用)
-base 有些功能对不同的derived实现是不同的，所以base自己先用vitual function定个接口的规范，derived去实现不同的function，然后base类型的object 还可以调用derive的 vitual function。derived -> base 的时候就用dynamic_cast.
+##### Q2_(deep_copy和shallow_copy区别)
+###### Q2_(Answer)
+##### Q3_(visual_function的作用)
+base 有些功能对不同的derived实现是不同的，所以base自己先用vitual function定个接口的规范，derived去实现不同的function，然后base类型的object 还可以调用derive的 vitual function。 只要有 vitual function,那么derived -> base 转换的时候就用dynamic_cast.
 # [5]. 其他乱七八糟的问题和坑
 # [4]. 个人project的特定问题
 ##### Q1 (Question)(WHO)
