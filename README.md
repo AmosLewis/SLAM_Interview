@@ -40,7 +40,7 @@ Feel free to contact me chil1@alumni.cmu.edu
 ##### Q2_(deep_copy和shallow_copy区别)
 ###### Q2_(Answer)
 ##### Q3_(visual_function的作用)
-base 有些功能对不同的derived实现是不同的，所以base自己先用vitual function定个接口的规范，derived去实现不同的function，然后base类型的object 还可以调用derive的 vitual function。 只要有 vitual function,那么derived -> base 转换的时候就用dynamic_cast.
+###### [A3_(visual_function的作用)](cpp/A3_(visual_function的作用))
 # [5]. 其他乱七八糟的问题和坑
 # [4]. 个人project的特定问题
 ##### Q1 (Question)(WHO)
