@@ -22,9 +22,25 @@ This is a private repository for SLAM job interview. The page is maintained by [
 ###### Q1 (Answer)
 # [4]. C++
 ##### Q1 (static_cast 和 dynamic_cast 区别)(杨面试的一家公司问的)
-static_cast : [1][no runtime checks] (Used if you know that you refer to an object of a specific type, and thus a check would be unnecessary.)
+***same point***:
 
-dynamic_cast :[1][run time checks] (Used when you don't know what the dynamic type of the object. Returns a null pointer if cast fail.)
+[1][***upcast***](up-cast" (derive->base class) is always valid )
+
+[2] [***none relevent class***](report error during **compile** if cast two unrelevent class)
+
+***different point***:
+
+**static_cast** : 
+
+[1][***no runtime checks***] (Used if you know that you refer to an object of a specific type, and thus a check would be unnecessary.)
+
+**dynamic_cast** :
+
+[1][***run time checks***] (Used when you don't know what the dynamic type of the object. Returns a null pointer if cast fail.)
+
+[2][***no downcast***](Cannot be used base->derived class)
+
+[3][***polymorphic argument type***]( polymorphic means base must have vitual function)
 
 [Stackflow Link：regular-cast-vs-static-cast-vs-dynamic-cast](https://stackoverflow.com/questions/28002/regular-cast-vs-static-cast-vs-dynamic-cast)
 ##### Q2 (deep copy 和 shallow copy 区别)(夏面试的一家公司问的)
