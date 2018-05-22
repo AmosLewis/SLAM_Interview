@@ -31,7 +31,8 @@ int main()
        ```
    - 1.1.3 数据类型的大小     
        
-       - sizeof 是操作符，不是函数；编译时候就已经得到大小
+       - sizeof 是操作符，不是函数；编译时候就已经得到大小;**[%zu]**
+       
        ```
        printf("sizeof(a): %zu \n", sizeof(a))
        ```
@@ -39,6 +40,6 @@ int main()
 ###  [***常见错误类型***]
 [q1] ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’
 
-[a1] 1.1.3 换 %d 为 %zu
+[a1] 1.1.3  %d -> %zu
 
 [stackflow-d-expects-argument-of-type-int-but-argument-2-has-type-long-unsigned-int](https://stackoverflow.com/questions/21128092/d-expects-argument-of-type-int-but-argument-2-has-type-long-unsigned-int)
