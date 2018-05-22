@@ -33,14 +33,17 @@ This is a private repository for SLAM job interview. The page is maintained by [
 **static_cast** : 
 
 [1][***no runtime checks***] (Used if you know that you refer to an object of a specific type, and thus a check would be unnecessary.)
+[2][***downcast***](Even cannot downcast, the static_cast won't give you error reprort during **compile**)
 
 **dynamic_cast** :
 
-[1][***run time checks***] (Used when you don't know what the dynamic type of the object. Returns a null pointer if cast fail.)
+[1][***Run Time Checks***] (Used when you don't know what the dynamic type of the object. Returns a null pointer if cast fail.)
 
-[2][***no downcast***](Cannot be used base->derived class)
+[2][***No Downcast***](Cannot be used base->derived class)
 
-[3][***polymorphic argument type***]( polymorphic means base must have vitual function)
+[3][***Polymorphic Argument Type***]( polymorphic means base must have vitual function )
+
+[4][***Only Reference & Pointer***] ( Can only be used for class reference and pointer )
 
 [Stackflow Link：regular-cast-vs-static-cast-vs-dynamic-cast](https://stackoverflow.com/questions/28002/regular-cast-vs-static-cast-vs-dynamic-cast)
 ##### Q2 (deep copy 和 shallow copy 区别)(夏面试的一家公司问的)
