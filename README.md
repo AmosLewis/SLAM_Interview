@@ -17,7 +17,7 @@ static_cast : [no runtime checks]
 dynamic_cast :[run time checks]
 ##### Q2 (deep copy 和 shallow copy 区别)(夏面试的一家公司问的)
 ###### Q2 (Answer)
-## Q3 (visual function 的作用)(夏面试的一家公司问的)
+##### Q3 (visual function 的作用)(夏面试的一家公司问的)
 ###### Q3 (Answer)
 # [5]. 其他乱七八糟的问题和坑
 # [4]. 个人project的特定问题
