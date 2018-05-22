@@ -1,5 +1,6 @@
 # SLAM_Interview
-前四类问题为主要专业知识，Question 多用中文描述，方便快速查找，answer多用英文，方便背诵，中英结合，关键词都用英文，必要的话直接插图。
+This is a private repository for SLAM job interview. The page is maintained by [Youjie Xia](https://github.com/YoujieXia), [Chi Liu](https://github.com/AmosLewis), [Jimuyang Zhang](https://github.com/Jimuyangz) and [Zhengyu Zhou](https://github.com/z78406). And this repo would keep constantly updated. 
+前四类问题为主要专业知识，Question 多用中文描述，方便快速查找，answer多用英文，方便背诵，中英结合，关键词都用英文，必要的话直接插图, c++ 的话有code可以直接贴code 到另外一个C++文件夹下，然后给个。
 # [1]. SLAM
 ##### Q1 (Calibration 步骤)(宇哥面试的一家公司问的)
 ###### Q1 (Answer)
