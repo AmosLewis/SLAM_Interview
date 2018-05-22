@@ -12,3 +12,5 @@ I will give the used method to use.
 [chi] 这个主要是SDE时候要看的， 高翔的书里有提到过单例模式，我之前看了一下.
 ## [数据结构] 
 [chi] 这个大概浏览一下，没细看，看到了好多些常用的排序算法。
+## c++interviewquestions.pdf
+[chi]  这个全英文98页，全是问题导向的，一问一答，可以复习完上面C++内容后来测试。
