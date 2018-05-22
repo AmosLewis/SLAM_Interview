@@ -3,7 +3,7 @@ This is a private repository for SLAM job interview. The page is maintained by [
 
 [chi] 前四类问题为主要专业知识，Question 多用中文描述，方便快速查找。
 
-[chi] answer多用英文，方便背诵，中英结合，关键词都用英文，必要的话直接插图。主要给[keypoint]和 (口语化解释)，或者若有详细解释的link可给出，答案可以只给出自己现在的理解，发现错了再改。
+[chi] answer多用英文，方便背诵，中英结合，关键词都用英文，必要的话直接插图。主要给[keypoint]和 (口语化解释)。若有详细解释的link也可给出，答案可以只给出自己现在的理解，发现错了可以再改。
 
 [chi] c++ 的话有code可以直接贴code 到另外一个C++文件夹下，然后给个link。
 
