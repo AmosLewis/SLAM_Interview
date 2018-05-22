@@ -41,6 +41,18 @@ int main()
        printf("sizeof(a): %zu \n", sizeof(a))
        ```
 
+    - 1.1.4 Rename of datatype
+        ```
+        // rename for struct
+        typedef struct People
+        {
+	        char name[64];
+	        int age;
+        } people_t;
+        // rename for unsigned int
+        typedef unsigned int u32;
+        ```
+
 ###  [***常见错误类型***]
 [q1] ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’
 
