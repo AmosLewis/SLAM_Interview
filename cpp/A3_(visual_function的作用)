@@ -1,0 +1,6 @@
+###### A3_(visual_function的作用)
+base 有些功能对不同的derived实现是不同的，所以base自己先用vitual function定个接口的规范，derived去实现不同的function.
+
+为了使base类型的object 可以调用derive的 vitual function。 
+
+另外只要有 vitual function,那么derived -> base 转换的时候就一定要用dynamic_cast.
