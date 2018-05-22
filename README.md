@@ -34,7 +34,7 @@ Feel free to contact me chil1@alumni.cmu.edu
 ###### Q4 (Answer)
 # [4]. C++
 ##### Q1 (static_cast 和 dynamic_cast 区别)
-###### A1_static_cast和dynamic_cast 区别.md
+###### [A1_static_cast和dynamic_cast 区别.md](cpp/A1_static_cast和dynamic_cast区别.md)
 
 
 ##### Q2 (deep copy 和 shallow copy 区别)
