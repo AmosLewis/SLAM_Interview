@@ -47,7 +47,7 @@ int main()
 		```
 
 	- 1.1.4 Rename of datatype
-        
+
 	```
         // rename for struct
         typedef struct People
@@ -57,18 +57,18 @@ int main()
         } people_t;
         // rename for unsigned int
         typedef unsigned int u32;
-        ```
+	```
 
 	- 1.1.5 Void
-	
+
 		- void * can point to any type of data
-		
+
 		```
 		void *memcpy( void* dest, const void* src, size_t len );
 		void *memset( void* buffer, int c, size_t num );
 		```
 
-###  [***Common error***]
+###  [***Common Error & Solution***]
 [e1] ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’
 
 [s1] 1.1.3  %d -> %zu
