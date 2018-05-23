@@ -67,6 +67,23 @@ int main()
 		void *memcpy( void* dest, const void* src, size_t len );
 		void *memset( void* buffer, int c, size_t num );
 		```
+		
+		
+		- void in function **pramater** and **return value**, means nothing.
+		```
+		int function(void)
+		{
+			return 1;
+		}
+		void function1(void)
+		{
+			return;
+		}
+		```
+		
+		- No void type variable
+		
+			C does not define the size of memory for void.
 
 ###  [***Common Error & Solution***]
 [e1] ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’
