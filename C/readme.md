@@ -109,9 +109,11 @@ int main()
 			
 			- heap: **Programmer** alloc and free(dynamic memory alloc and free); If Programmer not free, **Computer System** will free it at the end of program;
 			
-			- static:
+			- static: **global variable** & **static variable**; **Initialized** and **Uninitialized** are seperately put in adjacent two memory region; **Computer System** will free at the end of program.
 			
-			- const:
+			- const: Store string const and other const; *Computer System** will free at the end of program.
+			
+			- code: Store binary code of function.
 			
 
 ###  [***Common Error & Solution***]
