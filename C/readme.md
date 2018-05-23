@@ -32,10 +32,10 @@ int main()
 
 		- Function： **Compiler** precalculate space of memory to be alloc, but it has not alloc. Only when the **variable** be created will the memory be alloc.
 
-      		 ```
-       		int a = 10
-       		"int"  tell Compiler to alloc 4 byte memory. When compile see "a", it will alloc. 
-       		```
+		```
+		int a = 10
+		"int"  tell Compiler to alloc 4 byte memory. When compile see "a", it will alloc. 
+		```
 
 	- 1.1.3 Size of data type
 
@@ -70,7 +70,7 @@ int main()
 		void* malloc (size_t size);
 		```
 		
-		- void* as right value, must be casted to other type of point
+		- void* as right value, must be casted to other type of point, because ***C define only the same type of pointers can be allowed to assign with each other***.
 		```
 		char* p2 = (char*)malloc(sizeof(char)*20)
 		```
