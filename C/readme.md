@@ -111,7 +111,7 @@ int main()
 			
 			- static: **global variable** & **static variable**; **Initialized** and **Uninitialized** are seperately put in adjacent two memory region; **Computer System** will free at the end of program.
 			
-			- const: Store string const and other const; *Computer System** will free at the end of program.
+			- const: Store string const and other const; **Computer System** will free at the end of program.
 			
 			- code: Store binary code of function.
 			
