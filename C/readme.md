@@ -91,6 +91,13 @@ int main()
 		
 			C does not define the size of memory for void.
 
+- 1.2 Variable
+	- 1.2.1 Definition of Variable
+	
+		- Memory that can be read and write.
+		
+		- Alia of a continuous size of memory.
+
 ###  [***Common Error & Solution***]
 [e1] ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’
 
