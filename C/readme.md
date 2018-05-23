@@ -97,6 +97,22 @@ int main()
 		- Memory that can be read and write.
 		
 		- Alia of a continuous size of memory.
+		
+- 1.3 Model of Memory
+	- Work flow
+
+		- 1. Computer system load C code to memory.
+		
+		- 2. Computer system seperate C code into 4 region.
+		
+			- stack: Compiler **automatically** alloc and free; Store **function paramerter** and **local variable**.
+			
+			- heap: **Programmer** alloc and free(dynamic memory alloc and free); If Programmer not free, **Computer System** will free it at the end of program;
+			
+			- static:
+			
+			- const:
+			
 
 ###  [***Common Error & Solution***]
 [e1] ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’
