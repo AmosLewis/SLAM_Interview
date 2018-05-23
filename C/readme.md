@@ -37,9 +37,10 @@ int main()
        		"int"  tell Compiler to alloc 4 byte memory. When compile see "a", it will alloc. 
        		```
 
-	- 1.1.3 Size of data type     
+	- 1.1.3 Size of data type
 
 		- sizeof is operator，the same as (+ — * /), it is not a function.  Size will be return after compile.
+
 
 		```
 		// note the %zu, should not be %d, or it will return e1;
@@ -61,13 +62,18 @@ int main()
 
 	- 1.1.5 Void
 
-		- void * can point to any type of data
+		- void* as left value, can point to any type of data
 
 		```
-		void *memcpy( void* dest, const void* src, size_t len );
-		void *memset( void* buffer, int c, size_t num );
+		void* memcpy( void* dest, const void* src, size_t len );
+		void* memset( void* buffer, int c, size_t num );
+		void* malloc (size_t size);
 		```
 		
+		- void* as right value, must be casted to other type of point
+		```
+		char* p2 = (char*)malloc(sizeof(char)*20)
+		```
 		
 		- void in function **pramater** and **return value**, means nothing.
 		```
