@@ -60,7 +60,7 @@ int main()
         typedef unsigned int u32;
 	```
 
-	- 1.1.5 Void
+	- 1.1.5 Void(Data Encapsulating: "nothing is impossible" type)
 
 		- void* as left value, can point to any type of data
 
